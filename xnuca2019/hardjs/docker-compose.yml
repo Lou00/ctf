@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: 'ctf/xnuca2019-hardjs'
+    container_name: 'xnuca2019-hardjs'
+    build: .
+    ports:
+      - 8000:80
