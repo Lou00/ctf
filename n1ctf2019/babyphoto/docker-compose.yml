@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: 'ctf/n1ctf2019_oldattack'
+    container_name: 'oldattack'
+    build: .
+    ports:
+      - 8001:80
